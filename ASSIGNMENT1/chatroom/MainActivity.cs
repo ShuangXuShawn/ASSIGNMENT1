@@ -6,10 +6,10 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace ASSIGNMENT1
+namespace chatroom
 {
-    //n9557164 KailunZhang update status
-    [Activity(Label = "ASSIGNMENT1", MainLauncher = true, Icon = "@drawable/icon")]
+    //n9557164 KailunZHang chatroom
+    [Activity(Label = "chatroom", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         int count = 1;
@@ -23,9 +23,8 @@ namespace ASSIGNMENT1
 
             // Get our button from the layout resource,
             // and attach an event to it
-            
+         
 
-           
         }
     }
 }

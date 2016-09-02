@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <ImageView
+        android:src="@drawable/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_marginTop="-10dp" />
+    <ImageButton
+        android:src="@drawable/label3"
+        android:layout_width="56.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1"
+        android:layout_marginTop="-50dp"
+        android:background="#000000" />
+    <TextView
+        android:text="David"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="70.0dp"
+        android:layout_height="59.0dp"
+        android:id="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#000000" />
+    <ImageView
+        android:src="@drawable/xz"
+        android:layout_width="75.0dp"
+        android:layout_height="62.0dp"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="-70dp" />
+    <TextView
+        android:text="xxxxxxxxxxxxxx"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="134.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-30dp"
+        android:textColor="#000000" />
+    <TextView
+        android:text="12:40 pm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="85.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="-50dp"
+        android:textColor="#000000" />
+    <ImageView
+        android:src="@drawable/xz"
+        android:layout_width="73.0dp"
+        android:layout_height="67.0dp"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16.5dp" />
+    <TextView
+        android:text="Jack"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="62.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-80dp"
+        android:textColor="#000000" />
+    <TextView
+        android:text="xxxxxxxxxxxxxxx"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="135.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000" />
+    <TextView
+        android:text="10:40 pm"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="83.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="#000000" />
+</LinearLayout>

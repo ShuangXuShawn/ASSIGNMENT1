@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:background="#FFFFFF">
+    <ImageView
+        p1:src="@drawable/david"
+        p1:layout_width="match_parent"
+        p1:layout_height="70dp"
+        p1:id="@+id/imageView1" />
+    <ImageButton
+        p1:src="@drawable/label3"
+        p1:layout_width="43.5dp"
+        p1:layout_height="41.0dp"
+        p1:id="@+id/imageButton1"
+        p1:background="#000000"
+        p1:layout_marginTop="-50dp" />
+    <ImageView
+        p1:src="@drawable/xz"
+        p1:layout_width="63.0dp"
+        p1:layout_height="54.5dp"
+        p1:id="@+id/imageView2" />
+    <ImageView
+        p1:src="@drawable/bar"
+        p1:layout_width="232.5dp"
+        p1:layout_height="46.0dp"
+        p1:id="@+id/imageView3"
+        p1:layout_marginRight="0.0dp"
+        p1:layout_marginLeft="80dp"
+        p1:layout_marginTop="-40dp" />
+    <ImageView
+        p1:src="@drawable/xz"
+        p1:layout_width="69.5dp"
+        p1:layout_height="58.5dp"
+        p1:id="@+id/imageView4"
+        p1:layout_marginLeft="310dp"
+        p1:layout_marginTop="20dp" />
+    <ImageView
+        p1:src="@drawable/bar"
+        p1:layout_width="232.5dp"
+        p1:layout_height="42.5dp"
+        p1:id="@+id/imageView5"
+        p1:layout_marginLeft="70dp"
+        p1:layout_marginTop="-50dp" />
+    <ImageView
+        p1:src="@drawable/xz"
+        p1:layout_width="61.0dp"
+        p1:layout_height="67.5dp"
+        p1:id="@+id/imageView6"
+        p1:layout_marginBottom="0dp"
+        p1:layout_marginTop="20dp" />
+    <ImageView
+        p1:src="@drawable/bar"
+        p1:layout_width="217.0dp"
+        p1:layout_height="46.0dp"
+        p1:id="@+id/imageView7"
+        p1:layout_marginRight="0.0dp"
+        p1:layout_marginLeft="80dp"
+        p1:layout_marginTop="-50dp" />
+    <ImageView
+        p1:src="@drawable/xz"
+        p1:layout_width="64.0dp"
+        p1:layout_height="100.5dp"
+        p1:id="@+id/imageView8"
+        p1:layout_gravity="right" />
+    <ImageView
+        p1:src="@drawable/bar"
+        p1:layout_width="259.0dp"
+        p1:layout_height="42.5dp"
+        p1:id="@+id/imageView9"
+        p1:layout_marginLeft="60dp"
+        p1:layout_marginTop="-70dp"
+        p1:layout_marginBottom="0.0dp" />
+</LinearLayout>
