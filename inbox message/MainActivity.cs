@@ -9,13 +9,15 @@ using Android.OS;
 namespace inbox_message
 {
     // n9557164 Kailun Zhang inbox message
-    [Activity(Label = "inbox_message", MainLauncher = true, Icon = "@drawable/icon")]
-    public class MainActivity : Activity
+    [Activity(Label = "inbox_message", Theme = "@android:style/Theme.NoTitleBar", MainLauncher = true, Icon = "@drawable/icon")]
+    
+public class MainActivity : Activity
     {
         int count = 1;
 
         protected override void OnCreate(Bundle bundle)
         {
+            RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource

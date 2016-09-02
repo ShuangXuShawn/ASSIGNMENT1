@@ -16,6 +16,7 @@ namespace ASSIGNMENT1
 
         protected override void OnCreate(Bundle bundle)
         {
+            RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
